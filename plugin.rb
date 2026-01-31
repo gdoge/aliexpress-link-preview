@@ -10,10 +10,6 @@
 
 enabled_site_setting :aliexpress_link_preview_enabled
 
-module ::MyPluginModule
-  PLUGIN_NAME = "aliexpress-link-preview"
-end
-
 after_initialize do
   require_relative "lib/aliexpress_redirect/middleware"
 
