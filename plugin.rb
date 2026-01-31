@@ -1,6 +1,6 @@
-# frozen_string_literal: true
+hanged# frozen_string_literal: true
 
-# name: discourse-plugin-name
+# name: aliexpress-link-preview
 # about: TODO
 # meta_topic_id: TODO
 # version: 0.0.1
@@ -8,10 +8,10 @@
 # url: TODO
 # required_version: 2.7.0
 
-enabled_site_setting :aliexpress_redirect_enabled
+enabled_site_setting :aliexpress_link_preview_enabled
 
 module ::MyPluginModule
-  PLUGIN_NAME = "discourse-plugin-name"
+  PLUGIN_NAME = "aliexpress-link-preview"
 end
 
 after_initialize do

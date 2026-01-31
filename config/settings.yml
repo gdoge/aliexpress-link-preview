@@ -1,4 +1,4 @@
-aliexpress_redirect:
-  aliexpress_redirect_enabled:
+aliexpress_link_preview:
+  aliexpress_link_preview_enabled:
     default: false
     client: true
