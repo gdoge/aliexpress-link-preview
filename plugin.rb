@@ -1,4 +1,4 @@
-hanged# frozen_string_literal: true
+# frozen_string_literal: true
 
 # name: aliexpress-link-preview
 # about: TODO
